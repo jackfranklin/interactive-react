@@ -1,0 +1,22 @@
+#input {
+  width: 55%;
+  float: left;
+}
+
+#root {
+  width: 35%;
+  float: right;
+  border-left: 1px solid #111;
+  padding-left: 30px;
+}
+
+#error {
+  background: red;
+  color: white;
+  padding: 5px;
+}
+
+.CodeMirror {
+  border: 1px solid #eee;
+  height: auto;
+}
