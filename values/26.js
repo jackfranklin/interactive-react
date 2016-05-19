@@ -1,5 +1,5 @@
 var getGitHubUser = function(name) {
-  return fetch('https://api.github.com/users/' + name).then(function(data) {
+  return fetch('http://jsonplaceholder.typicode.com/users/' + name).then(function(data) {
     return data.json();
   });
 };
@@ -20,13 +20,13 @@ var Index = React.createClass({
     router: React.PropTypes.object
   },
   go: function() {
-    this.context.router.push('/github/jackfranklin');
+    this.context.router.push('/github/1');
   },
   render: function() {
     return (
       <div>
         <h1>Index page!</h1>
-        <button onClick={this.go}>View Jack's GitHub data</button>
+        <button onClick={this.go}>View User 1</button>
       </div>
     );
   }
