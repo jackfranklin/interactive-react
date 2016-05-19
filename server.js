@@ -18,7 +18,8 @@ app.get('/', (_, res) => {
 app.get('/:id', (req, res) => {
   res.render(req.params.id, {
     initialValue: fs.readFileSync(`values/${req.params.id}.js`, 'utf8'),
-    nextId: +req.params.id + 1
+    nextId: +req.params.id + 1,
+    isRouter: +req.params.id > 19
   });
 });
 

@@ -3,7 +3,7 @@
 var script = document.querySelector('.js-script-change');
 
 var makeTemplate = function makeTemplate(input) {
-  return '\n' + input + '\nReactDOM.render(\n   <App />,\n   document.getElementById(\'root\')\n)\n  ';
+  return '\nif (typeof ReactRouter != \'undefined\') {\n  window.Router = ReactRouter.Router;\n  window.Route = ReactRouter.Route;\n  window.IndexRoute = ReactRouter.IndexRoute;\n  window.Link = ReactRouter.Link;\n  window.hashHistory = ReactRouter.hashHistory;\n}\n' + input + '\nReactDOM.render(\n   <App />,\n   document.getElementById(\'root\')\n)\n  ';
 };
 
 var codeMirrorToScript = function codeMirrorToScript() {

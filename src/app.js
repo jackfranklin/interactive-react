@@ -2,6 +2,13 @@ const script = document.querySelector('.js-script-change');
 
 const makeTemplate = (input) => {
   return `
+if (typeof ReactRouter != 'undefined') {
+  window.Router = ReactRouter.Router;
+  window.Route = ReactRouter.Route;
+  window.IndexRoute = ReactRouter.IndexRoute;
+  window.Link = ReactRouter.Link;
+  window.hashHistory = ReactRouter.hashHistory;
+}
 ${input}
 ReactDOM.render(
    <App />,
