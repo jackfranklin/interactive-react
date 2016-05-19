@@ -52,4 +52,8 @@ http://javascriptplayground.com
 
 # Questions?
 
+- @Jack_Franklin
+- jack@pusher.com
+- The party!
+
 ---
