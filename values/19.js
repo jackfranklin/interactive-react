@@ -1,5 +1,5 @@
 var getGitHubUser = function(name) {
-  return fetch('https://api.github.com/users/' + name).then(function(data) {
+  return fetch('http://jsonplaceholder.typicode.com/users/1').then(function(data) {
     return data.json();
   });
 };
