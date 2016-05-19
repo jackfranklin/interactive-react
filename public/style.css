@@ -1,3 +1,17 @@
+p, li {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+code {
+  font-size: 16px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
 #input {
   width: 55%;
   float: left;
@@ -23,4 +37,26 @@
 
 .active-link {
   color: red;
+}
+
+.next-btn {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  display: block;
+  background: blue;
+  color: white;
+  border: 1px solid #111;
+  padding: 30px;
+}
+
+a.next-btn:link,
+a.next-btn:visited {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a.next-btn:hover {
+  background: white;
+  color: black;
 }
