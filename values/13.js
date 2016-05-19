@@ -2,7 +2,7 @@ var Form = React.createClass({
   render: function() {
     return (
       <div>
-        <input type="text" ref="textInput" value="buy milk" />
+        <input type="text" ref="textInput" />
       </div>
     );
   }

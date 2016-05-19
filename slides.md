@@ -18,9 +18,14 @@
 
 ---
 
+# Come on internet...
+
+---
+
 http://infoshare-react.herokuapp.com
 
-(please excuse the CSS)
+- (please excuse the CSS).
+- Chrome or Firefox recommended.
 
 ---
 
