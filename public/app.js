@@ -30,8 +30,6 @@ var myCodeMirror = CodeMirror.fromTextArea(ta, {
 });
 
 myCodeMirror.setValue(document.querySelector('.js-initial-value').innerHTML);
-codeMirrorToScript();
-runReact();
 
 var button = document.querySelector('button');
 

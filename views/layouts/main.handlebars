@@ -2,14 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/codemirror@5.14.2/lib/codemirror.css" />
+    <title>Infoshare React workshop</title>
+    <link rel="stylesheet" type="text/css" href="/lib/codemirror.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <div id="heading">
-      <p>Edit the code on the left hand side.</p>
-      <p>The result will be evaluated and rendered on the right hand side.</p>
+      <p>Edit the code on the left hand side. The result will be evaluated and rendered on the right hand side. <strong>Modern browser required!</strong> Latest Chrome or Firefox preferable.</p>
     </div>
     <div id="input">
       <button id="go">Run</button>
@@ -20,13 +19,15 @@
       <a href="/{{nextId}}">Next</a>
     </div>
 
-    <div id="root"></div>
+    <div id="root">
+      <p>Click the "run" button to run the React code here.</p>
+    </div>
 
-    <script src="https://npmcdn.com/codemirror@5.14.2" charset="utf-8"></script>
-    <script src="https://npmcdn.com/codemirror@5.14.2/mode/javascript/javascript.js" charset="utf-8"></script>
-    <script src="https://npmcdn.com/jack-franklin-throw-in-the-towel@2" charset="utf-8"></script>
-    <script src="https://npmcdn.com/react@15.0.2/dist/react.js" charset="utf-8"></script>
-    <script src="https://npmcdn.com/react-dom@15.0.2/dist/react-dom.js" charset="utf-8"></script>
+    <script src="/lib/codemirror.js" charset="utf-8"></script>
+    <script src="/lib/codemirror-js.js" charset="utf-8"></script>
+    <script src="/lib/throw-in-the-towel.js" charset="utf-8"></script>
+    <script src="/lib/react.js" charset="utf-8"></script>
+    <script src="/lib/react-dom.js" charset="utf-8"></script>
     <script type="text/placeholder" class="js-initial-value">{{{initialValue}}}</script>
     <script type="text/babel" class="js-script-change">
     </script>
