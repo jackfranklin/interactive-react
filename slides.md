@@ -29,3 +29,27 @@ We'll go through it together, one at a time.
 First, I'll do it, and then hand over to you :)
 
 ---
+
+Please, don't skip ahead! You'll get stuck / bored.
+
+---
+
+Let's go!
+
+---
+
+Building a "real" React project
+
+---
+
+http://github.com/jackfranklin/interactive-react
+
+http://github.com/jackfranklin/react-training-workshop
+
+http://javascriptplayground.com
+
+---
+
+# Questions?
+
+---
