@@ -16,7 +16,12 @@
       <div id="instruction">
         {{{body}}}
       </div>
+
+      {{#if isEnd}}
+        <a class="next-btn" href="/end">Next</a>
+      {{else}}
       <a class="next-btn" href="/{{nextId}}">Next</a>
+      {{/if}}
     </div>
 
     <div id="root">

@@ -17,11 +17,18 @@ app.get('/', (_, res) => {
   });
 });
 
+app.get('/end', (_, res) => {
+  res.render('end', {
+    layout: false
+  });
+});
+
 app.get('/:id', (req, res) => {
   res.render(req.params.id, {
     initialValue: fs.readFileSync(`values/${req.params.id}.js`, 'utf8'),
     nextId: +req.params.id + 1,
-    isRouter: +req.params.id > 19
+    isRouter: +req.params.id > 19,
+    isEnd: +req.params.id === 29
   });
 });
 
