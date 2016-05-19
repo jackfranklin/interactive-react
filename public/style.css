@@ -60,3 +60,23 @@ a.next-btn:hover {
   background: white;
   color: black;
 }
+
+#index-page {
+  text-align: center;
+}
+
+#index-page li {
+  list-style: none;
+  font-size: 20px;
+}
+
+#index-page a:link,
+#index-page a:visited {
+  font-size: 40px;
+  text-decoration: none;
+  color: blue;
+}
+
+#index-page a:hover {
+  text-decoration: underline;
+}

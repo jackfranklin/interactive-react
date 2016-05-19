@@ -12,7 +12,9 @@ app.engine('handlebars', expressHandlebars({
 
 
 app.get('/', (_, res) => {
-  res.redirect('/1');
+  res.render('index', {
+    layout: false
+  });
 });
 
 app.get('/:id', (req, res) => {
