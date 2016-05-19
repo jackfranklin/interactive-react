@@ -24,4 +24,8 @@ http://infoshare-react.herokuapp.com
 
 ---
 
+We'll go through it together, one at a time.
+
+First, I'll do it, and then hand over to you :)
+
 ---

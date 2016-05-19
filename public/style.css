@@ -1,4 +1,4 @@
-p, li {
+p, li, h1, h2, h3, h4, h5 {
   font-family: Helvetica, sans-serif;
   font-size: 15px;
 }
@@ -22,6 +22,7 @@ li {
   float: right;
   border-left: 1px solid #111;
   padding-left: 30px;
+  min-height: 500px;
 }
 
 #error {
@@ -80,3 +81,19 @@ a.next-btn:hover {
 #index-page a:hover {
   text-decoration: underline;
 }
+
+button#go {
+  display: block;
+  border: 1px solid black;
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+  width: 400px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
