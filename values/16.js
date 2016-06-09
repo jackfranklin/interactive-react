@@ -1,5 +1,5 @@
 var getGitHubUser = function(name) {
-  return fetch('https://api.github.com/users/' + name).then(function(data) {
+  return fetch('http://github-proxy-api.herokuapp.com/users/' + name).then(function(data) {
     return data.json();
   });
 };

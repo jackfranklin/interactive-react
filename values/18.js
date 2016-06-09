@@ -1,7 +1,7 @@
 var getGitHubUser = function(name) {
   return new Promise(function(resolve) {
     setTimeout(function() {
-      fetch('https://api.github.com/users/' + name).then(function(data) {
+      fetch('http://github-proxy-api.herokuapp.com/users/' + name).then(function(data) {
         resolve(data.json());
       });
     }, 2000);
