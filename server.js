@@ -28,7 +28,7 @@ app.get('/:id', (req, res) => {
     initialValue: fs.readFileSync(`values/${req.params.id}.js`, 'utf8'),
     nextId: +req.params.id + 1,
     isRouter: +req.params.id > 19,
-    isEnd: +req.params.id === 29
+    isEnd: +req.params.id === 19
   });
 });
 
