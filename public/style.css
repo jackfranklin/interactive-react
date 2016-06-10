@@ -13,12 +13,12 @@ li {
 
 
 #input {
-  width: 55%;
+  width: 75%;
   float: left;
 }
 
 #root {
-  width: 35%;
+  width: 22%;
   float: right;
   border-left: 1px solid #111;
   padding-left: 30px;
